@@ -1,8 +1,3 @@
-import re
-
-def print_hi(name):
-    print(f'Hi, {name}')
-
 def tokenize_string(S):
     flag=0
     list1 = []
@@ -44,8 +39,4 @@ def tokenize_string(S):
 
 if __name__ == '__main__':
     str = "abc def ghi \"jkl    as\"\"mno pqr\" hihi \"tuv xyz\"  \"aabbcc\""
-    #abc def ghi "jkl    as"  "mno pqr" hihi "tuv xyz"  "aabbcc"
-    # str3=input()
     tokenize_string(str)
-    # print_hi('PyCharm')
-    #"abc"
